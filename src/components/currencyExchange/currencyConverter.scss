@@ -1,0 +1,65 @@
+.converter {
+    display: block;
+    width: 1000px;
+    height: fit-content;
+    margin: auto;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 3px 3px 3px 3px rgba(80, 80, 80, 0.2);
+    background-color: rgba(255, 255, 255, 0.878);
+    align-items: center;
+    justify-content: center;
+    color: rgb(76, 76, 76)
+}
+
+.currency {
+
+    margin: auto;
+    display: flex;
+}
+.title {
+    text-align: center;
+    margin-bottom: 30px;
+    h3 {
+        font-weight: 400;
+    }
+}
+.option { 
+    margin: auto;
+    input {
+        width: 200px;
+        height: 38px;
+        background: #FFFFFF;
+        border: 1px solid #bdbdbd;
+        border-radius: 5px;
+        padding: 10px;
+        
+        margin-right: 5px;
+        &:focus{
+            outline: 2px solid rgb(225, 225, 99);
+        }
+    }
+
+    select{
+        border: 1px solid #bdbdbd;
+        border-radius: 5px;
+        max-width: 200px;
+        height: 38px;
+        padding: 5px;
+        &:focus{
+            outline: 2px solid rgb(225, 225, 99);
+            border-radius: 5px;
+        }
+        &::selection {
+            border-radius: 5px;
+        }
+       
+    }
+}
+
+.equals {
+    font-size: 40px;
+}
+
+
+

@@ -1,0 +1,29 @@
+
+.app {
+    &-header{
+        width: 1000px;
+        display: flex;
+        margin: 50px auto;
+        border-radius: 5px;
+        padding: 20px;
+        color: #fff;
+        text-align: center;
+        align-items: center;
+    }
+    &-currency {
+        display: inline-block;
+        margin: 20px auto 0;
+        p {
+            margin-top: 20px;
+            font-style: italic;
+            color: rgb(235, 235, 70)
+        }
+    }
+    &-title{
+        margin: auto;
+        h1 {
+            font-size: 24px;
+        }
+    }
+
+}
